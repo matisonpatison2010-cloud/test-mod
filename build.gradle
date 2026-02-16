@@ -12,10 +12,14 @@ buildscript {
 apply plugin: 'fabric-loom'
 apply plugin: 'java'
 apply plugin: 'maven-publish'
+apply plugin: 'base'  // required for archivesName
 
 group = 'com.example'
 version = '1.0.0'
-archivesBaseName = 'bossmusic'
+
+base {
+    archivesName.set("bossmusic")
+}
 
 repositories {
     mavenCentral()
