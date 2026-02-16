@@ -1,0 +1,18 @@
+{
+  "wither_theme": {
+    "sounds": [
+      {
+        "name": "bossmusic:wither_theme",
+        "stream": true
+      }
+    ]
+  },
+  "dragon_theme": {
+    "sounds": [
+      {
+        "name": "bossmusic:dragon_theme",
+        "stream": true
+      }
+    ]
+  }
+}
